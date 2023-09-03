@@ -31,10 +31,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/sLZeu3i.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/2e02u0b.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/xoDq43i.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/b14EG9s.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sLZeu3i.png" height="40%" width="40%" alt="Windows Server 2022 VM"/>
+<img src="https://i.imgur.com/2e02u0b.png" height="40%" width="40%" alt="Windows 10 VM"/>
+<img src="https://i.imgur.com/xoDq43i.png" height="40%" width="40%" alt="Static Setting"/>
+<img src="https://i.imgur.com/b14EG9s.png" height="60%" width="60%" alt="Static setting ipconfig"/>
 </p>
 <p>
 Create the Domain Controller VM (Windows Server 2022) named “DC-1”.
