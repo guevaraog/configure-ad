@@ -8,7 +8,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
@@ -31,9 +31,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/sLZeu3i.png" height="37%" width="37%" alt="Windows Server 2022 VM"/>
-<img src="https://i.imgur.com/2e02u0b.png" height="40%" width="40%" alt="Windows 10 VM"/>
+<img src="https://i.imgur.com/sLZeu3i.png" height="30%" width="30%" alt="Windows Server 2022 VM"/>
+<br />
+<img src="https://i.imgur.com/2e02u0b.png" height="30%" width="30%" alt="Windows 10 VM"/>
+<br />
 <img src="https://i.imgur.com/xoDq43i.png" height="40%" width="40%" alt="Static Setting"/>
+<br />
 <img src="https://i.imgur.com/b14EG9s.png" height="60%" width="60%" alt="Static setting ipconfig"/>
 </p>
 <p>
@@ -50,7 +53,17 @@ Ensure that both VMs are in the same Vnet (you can check the topology with Netwo
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OCqXQ1c.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/IDjt3do.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/dKNlOF8.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/5bzuAN8.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Njhi0eO.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/L4H0wT3.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping).
