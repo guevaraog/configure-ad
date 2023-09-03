@@ -31,7 +31,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sLZeu3i.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2e02u0b.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xoDq43i.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/b14EG9s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Create the Domain Controller VM (Windows Server 2022) named “DC-1”.
@@ -42,7 +45,7 @@ Set Domain Controller’s NIC Private IP address to be static.
 <br />
 Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created.
 <br />
-Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher.
+Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher).
 </p>
 <br />
 
