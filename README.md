@@ -53,17 +53,17 @@ Ensure that both VMs are in the same Vnet (you can check the topology with Netwo
 <br />
 
 <p>
-<img src="https://i.imgur.com/OCqXQ1c.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OCqXQ1c.png" height="40%" width="40%" alt="Virtual Machines"/>
 <br />
-<img src="https://i.imgur.com/IDjt3do.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IDjt3do.png" height="20%" width="20%" alt="Ping timed out"/>
 <br />
-<img src="https://i.imgur.com/dKNlOF8.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dKNlOF8.png" height="40%" width="40%" alt="Windows Defender Firewall"/>
 <br />
-<img src="https://i.imgur.com/5bzuAN8.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5bzuAN8.png" height="70%" width="70%" alt="Core networking diagnostics"/>
 <br />
-<img src="https://i.imgur.com/Njhi0eO.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Njhi0eO.png" height="70%" width="70%" alt="Core networking diagnostics with permissions"/>
 <br />
-<img src="https://i.imgur.com/L4H0wT3.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/L4H0wT3.png" height="20%" width="20%" alt="Ping worked and is sending signal back"/>
 </p>
 <p>
 Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping).
