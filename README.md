@@ -131,6 +131,19 @@ Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in 
 <br />
 
 <p>
+<img src="https://i.imgur.com/pyrIi17.png" height="30%" width="30%" alt="Domain Users"/>
+<img src="https://i.imgur.com/00joHrQ.png" height="30%" width="30%" alt="Allow Domain Users"/>
+</p>
+<p>
+Log into Client-1 as mydomain.com\jane_admin and open system properties.
+<br />
+Click “Remote Desktop”.
+<br />
+Allow “domain users” access to remote desktop.
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
