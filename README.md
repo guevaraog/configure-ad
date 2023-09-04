@@ -75,17 +75,18 @@ Check back at Client-1 to see the ping succeed.
 <br />
 
 <p>
-<img src="https://i.imgur.com/AgddVvs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/LWw3zTD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AgddVvs.png" height="30%" width="30%" alt="Select server roles"/>
+<br />
+<img src="https://i.imgur.com/LWw3zTD.png" height="30%" width="30%" alt="Deployment Configurations"/>
+<br />
+<img src="https://i.imgur.com/ObyB98g.png" height="30%" width="30%" alt="Users created"/>
 </p>
 <p>
 Login to DC-1 and install Active Directory Domain Services.
 <br />
 Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is).
 <br />
-Restart and then log back into DC-1 as user: mydomain.com\labuser.
+Restart and then log back into DC-1 as user: mydomain.com\your created username.
 </p>
 <br />
 
