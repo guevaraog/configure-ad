@@ -32,11 +32,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 <img src="https://i.imgur.com/sLZeu3i.png" height="30%" width="30%" alt="Windows Server 2022 VM"/>
-<br />
 <img src="https://i.imgur.com/2e02u0b.png" height="30%" width="30%" alt="Windows 10 VM"/>
 <br />
 <img src="https://i.imgur.com/xoDq43i.png" height="40%" width="40%" alt="Static Setting"/>
-<br />
 <img src="https://i.imgur.com/b14EG9s.png" height="60%" width="60%" alt="Static setting ipconfig"/>
 </p>
 <p>
@@ -76,7 +74,6 @@ Check back at Client-1 to see the ping succeed.
 
 <p>
 <img src="https://i.imgur.com/AgddVvs.png" height="30%" width="30%" alt="Select server roles"/>
-<br />
 <img src="https://i.imgur.com/LWw3zTD.png" height="30%" width="30%" alt="Deployment Configurations"/>
 <br />
 <img src="https://i.imgur.com/ObyB98g.png" height="30%" width="30%" alt="Users created"/>
@@ -91,10 +88,28 @@ Restart and then log back into DC-1 as user: mydomain.com\your created username.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PIOv3hg.png" height="20%" width="20%" alt="_EMPLOYEES"/>
+<img src="https://i.imgur.com/RmVMd2r.png" height="20%" width="20%" alt="_ADMINS"/>
+<br />
+<img src="https://i.imgur.com/0gnt6pR.png" height="20%" width="20%" alt="Jane Doe"/>
+<img src="https://i.imgur.com/SmhtffS.png" height="30%" width="30%" alt="Active Directory Users and Computers"/>
+<br />
+<img src="https://i.imgur.com/AK1CU0n.png" height="5%" width="20%" alt="Domain Admins"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”.
+<br />
+Create a new OU named “_ADMINS”.
+<br />
+(The following name was used as an example of how to setup admin for real world purposes).
+<br />
+Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”.
+<br />
+Add jane_admin to the “Domain Admins” Security Group.
+<br />
+Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”.
+<br />
+Use jane_admin as your admin account from now on.
 </p>
 <br />
 
